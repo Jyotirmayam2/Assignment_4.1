@@ -8,20 +8,22 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" /> <!--external style sheet-->
     <!-- internal styling -->
     <style type="text/css">
+        /* class selector */
         .third {
             font-size: 15px;
         }
-        li:nth-child(3){
+        /* type selector, use of pseudo class, use of background-color, nesting styling */
+        .third ul li:nth-child(3){
             background-color: blue;
         }
     </style>
 </head>
 <body>
-    <!-- div with class name as "third" -->
+    <!-- div with class name "third" -->
     <div class="third">
         <!-- paragraph -->
         <p>Apply to third child</p>
-        <!-- unorder list -->
+        <!-- un-ordered list -->
         <ul>
             <li>First</li>
             <li>Second</li>
